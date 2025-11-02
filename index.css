@@ -1,0 +1,243 @@
+/* ------------------Card components------------------ */
+/* .Card{
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 12%, 0.612);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    display: inline-block;
+}
+.Card .Card-image{
+    max-width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.Card .Card-title{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: black;
+}
+.Card .Card-text{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+} */
+
+/* ------------CSS Styles in React---------------- */
+/* .button{
+    background-color: hsl(200, 100%, 50%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+} */
+
+/* --------------Props----------- */
+/* .student{
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid black;
+}
+.student p{
+    margin: 1px;;
+} */
+
+/* --------------Conditional Render--------------*/
+/* .welcome-message{
+    font-size: 2.5em;
+    background-color: hsl(120, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+}
+.login-prompt{
+    font-size: 2.5em;
+    background-color: hsl(1, 100%, 42%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0;
+} */
+
+/* ----------------List----------------- */
+/* .list-category{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: hsla(0, 1%, 19%, 0.781);
+    margin-bottom: 10px;
+    text-align: center;
+    border: 3px;
+    border-radius: 5px;
+    background-color: hsla(168, 74%, 18%, 0.4);
+}
+.list-items li{
+    font-size: 2em;
+    list-style: none;
+    color:rgb(33, 23, 11);
+    text-align: center;
+    margin: 0;
+}
+.list-items li:hover{
+    color: aliceblue;
+    cursor: pointer;
+} */
+
+/* -------------------------useState---------------------- */
+/* .Count-container{
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+.count-display{
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+.Counter-button{
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px, 5px;
+    background-color: hsla(271, 100%, 50%, 0.621);
+    color: white;
+    border: 1px solid hsla(280, 6%, 10%, 0.621);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.Counter-button:hover{
+    background-color: hsla(271, 57%, 80%, 0.621);
+} */
+
+/* ---------------------onChange----------------------- */
+/* .ONCHANGE{
+    text-align: center;
+    font-style: normal;
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    background-color: aquamarine;
+    color: blueviolet;
+} */
+
+/* ------------------Color-Picker------------- */
+/* body{
+    font-family: Arial, sans-serif;
+}
+.color-picker-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 50px;
+    font-size: 2rem;
+}
+.color-display{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid hsl(0, 0%, 80%);
+    border-radius: 25px;
+    margin-bottom: 25px;
+    transition: 0.25s ease;
+}
+.color-display p{
+    color: hsl(0, 0%, 20%);
+    font-size: 2rem;
+    text-align: center;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input[type="color"]{
+    width: 75px;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid hsl(0, 0%, 80%);
+} */
+
+/* -------------------------TO-DO-LIST---------------- */
+/* body{
+    background-color: hsl(0, 0%, 10%);
+}
+.to-do-list{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1{
+    font-size: 4rem;
+    color: white;
+}
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.add-button{
+    background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover{
+    background-color: hsl(125, 47%, 44%);
+}
+.delete-button{
+    background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover{
+    background-color: hsl(10, 90%, 40%);
+}
+.move-button{
+    background-color: hsl(207, 90%, 64%);
+}
+.move-button:hover{
+    background-color: hsl(207, 90%, 54%);
+}
+input[type="text"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid hsla(0, 0%, 80%, 0.5);
+    border-radius: 5px;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+ol{
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: hsl(0, 0%, 97%);
+    margin-bottom: 10px;
+    border: 3px solid hsla(0, 0%, 85%, 0.75);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    flex: 1;
+}
+.delete-button, .move-button{
+    padding: 8px 12px;
+    font-size: 1.4rem;
+    margin-left: 10px;
+} */
+
+/* ------------useContext------------ */
+.box{
+    border: 4px;
+    padding: 25px;
+}
